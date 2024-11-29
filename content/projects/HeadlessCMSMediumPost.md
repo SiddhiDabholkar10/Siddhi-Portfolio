@@ -1,15 +1,13 @@
 ---
 date: '2019-11-12'
-title: 'Building a Headless Mobile App CMS From Scratch'
-github: ''
-external: 'https://medium.com/stories-from-upstatement/building-a-headless-mobile-app-cms-from-scratch-bab2d17744d9'
+title: 'NotesApp'
+github: 'https://github.com/Niwant/NotesApp'
 tech:
   - Node
   - Express
-  - Firebase
-  - Vue
-company: 'Upstatement'
+  - React
+  - Docker
 showInProjects: true
 ---
 
-Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement
+Developed a feature-rich note management app with categorization, tagging, multi-device sync, SSR for better SEO, Redis caching for 50% query reduction, and Dockerized deployment for scalability.

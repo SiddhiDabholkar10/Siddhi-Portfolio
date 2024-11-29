@@ -1,15 +1,17 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
+title: 'RAG Notes'
+cover: '../971.jpg'
+github: 'https://github.com/Niwant/RAGNotes'
 external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Next.js
+  - Go
+  - RAG
+  - Docker
+  - AI/ML
+  - Clerk
+  - MongoDB
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A web-based notes application designed to serve as your personal knowledge base, utilizing Augmented Retrieval of Data (RAG) for efficient information access. Easily store unlimited notes and PDFs while leveraging advanced retrieval features to quickly find what you need.

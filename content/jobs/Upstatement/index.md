@@ -1,13 +1,13 @@
 ---
 date: '2018-05-14'
-title: 'Lead Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
+title: 'Software Engineer 1'
+company: 'SoftwareAG'
+location: 'Mumbai, IN'
+range: 'Mar 2022 - June 2024'
 url: 'https://www.upstatement.com/'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Delivered high-quality, scalable production code for diverse projects, enhancing functionality and user experience.
+- Collaborated with teams to research, develop, and architect technical solutions tailored to business needs.
+- Worked closely with designers, project managers, and engineers to transform innovative concepts into reliable, production-ready applications.
+- Provided mentorship to junior developers, fostering best practices in version control, CI/CD workflows, and secure coding standards.

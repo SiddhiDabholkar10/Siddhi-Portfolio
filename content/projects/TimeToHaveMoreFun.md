@@ -1,14 +1,14 @@
 ---
 date: '2020-01-10'
-title: 'Time to Have More Fun'
-github: 'https://github.com/bchiang7/time-to-have-more-fun'
-external: 'https://time-to-have-more-fun.now.sh/'
+title: 'Portfolio Website'
+github: 'https://github.com/Niwant/UX_design'
+external : 'https://parinistha.netlify.app/'
 tech:
   - Next.js
   - Tailwind CSS
-  - Firebase
+  - Figma
 company: ''
 showInProjects: true
 ---
 
-A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS
+A portfolio for UX designer friend, built with Next.js, and Tailwind CSS
