@@ -347,7 +347,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Projects I’ve Built
       </h2>
 
       <StyledProjectsGrid>
@@ -361,14 +361,19 @@ const Featured = () => {
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    {/* <p className="project-overline">Featured Project</p> */}
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <a href={github}>{title}</a>
                     </h3>
 
                     <div
-                      className="project-description"
+                      className="project-description" style={{
+                        alignItems: 'center', // Optional: Centers the items
+                        textAlign: 'center', // Optional: Aligns the items to the left
+                        justifyContent: 'center', // Optional: Centers the items
+                        alignContent: 'center', // Optional: Centers the items
+                      }}
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
@@ -391,11 +396,7 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
-                      {external &&  (
-                        <a href={external} aria-label="External Link" className="external">
-                          <Icon name="External" />
-                        </a>
-                      )}
+                    
                     </div>
                   </div>
                 </div>

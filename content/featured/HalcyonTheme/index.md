@@ -1,17 +1,15 @@
 ---
 date: '1'
-title: 'RAG Notes'
+title: 'Breast Cancer Classification'
 cover: '../971.jpg'
-github: 'https://github.com/Niwant/RAGNotes'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/SiddhiDabholkar10/Breast-Cancer-Image-Classification.git'
 tech:
-  - Next.js
-  - Go
-  - RAG
-  - Docker
-  - AI/ML
-  - Clerk
-  - MongoDB
+  - Python - Numpy, Pandas, Seaborn, Keras, Tensorflow, Pillow
+  - CNN
+  - Jupyter Notebook
+  - React
+  
 ---
-
-A web-based notes application designed to serve as your personal knowledge base, utilizing Augmented Retrieval of Data (RAG) for efficient information access. Easily store unlimited notes and PDFs while leveraging advanced retrieval features to quickly find what you need.
+Developed a Convolutional Neural Network (CNN) to classify a dataset of 500+ breast tissue biopsy images as benign or malignant, achieving 88.54% accuracy. 
+Utilized data preprocessing techniques such as resizing, normalization, and augmentation with NumPy and Pillow to enhance model performance. Built a web application using React.js and FastAPI for real-time visualization of predictions. 
+Integrated TensorFlow for efficient model inference, allowing users to upload images and receive instant results. Assessed model performance using metrics like precision, recall, and F1-score.

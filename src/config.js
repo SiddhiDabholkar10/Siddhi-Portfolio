@@ -1,23 +1,20 @@
 module.exports = {
-  email: 'nsalunke@charlotte.edu',
+  email: 'sdabh@uic.edu',
 
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/Niwant',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/siddhi-dabholkar10/',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/_niwantsalunke_',
+      name: 'GitHub',
+      url: 'https://github.com/SiddhiDabholkar10',
     },
     {
       name: 'Twitter',
-      url: 'https://leetcode.com/u/Niwant/',
+      url: 'https://leetcode.com/u/Siddhi_D_10/',
     },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/niwantsalunke',
-    },
+    
     // {
     //   name: 'Codepen',
     //   url: 'https://codepen.io/bchiang7',
@@ -26,21 +23,25 @@ module.exports = {
 
   navLinks: [
     {
-      name: 'About',
+      name: 'About Me',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Work Experience',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Technical Projects',
       url: '/#projects',
     },
     {
-      name: 'Contact',
-      url: '/#contact',
+      name: 'Certifications',
+      url: '/#certifications',
     },
+    {
+      name: 'Contact Me',
+      url: '/#contact',
+    }
   ],
 
   colors: {

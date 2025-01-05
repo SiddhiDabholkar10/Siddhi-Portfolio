@@ -115,13 +115,15 @@ const StyledProject = styled.li`
   }
 
   .project-title {
+  text-align: justify;
     margin: 0 0 10px;
+    
     color: var(--lightest-slate);
     font-size: var(--fz-xxl);
 
     a {
       position: static;
-
+      text-align: center;
       &:before {
         content: '';
         display: block;
@@ -138,6 +140,7 @@ const StyledProject = styled.li`
   .project-description {
     color: var(--light-slate);
     font-size: 17px;
+    text-align: center;
 
     a {
       ${({ theme }) => theme.mixins.inlineLink};
@@ -219,9 +222,7 @@ const Projects = () => {
       <div className="project-inner">
         <header>
           <div className="project-top">
-            <div className="folder">
-              <Icon name="Folder" />
-            </div>
+            
             <div className="project-links">
               {github && (
                 <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
@@ -242,7 +243,7 @@ const Projects = () => {
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
+            <a href={github} target="_blank" rel="noreferrer">
               {title}
             </a>
           </h3>
@@ -252,9 +253,9 @@ const Projects = () => {
 
         <footer>
           {tech && (
-            <ul className="project-tech-list">
+            <ul className="project-tech-list" >
               {tech.map((tech, i) => (
-                <li key={i}>{tech}</li>
+                <li  key={i}>{tech}</li>
               ))}
             </ul>
           )}

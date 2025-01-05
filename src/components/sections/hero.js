@@ -7,7 +7,7 @@ import { usePrefersReducedMotion } from '@hooks';
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-start;
+  align-items: centre;
   min-height: 100vh;
   height: 100vh;
   padding: 0;
@@ -37,12 +37,17 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 540px;
+     max-width: 100%;
+     text-align: center;
   }
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 `;
 
@@ -60,19 +65,19 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Niwant Salunke.</h2>;
+  const two = <h2 className="big-heading">Siddhi Dabholkar</h2>;
   const three = <h3 className="big-heading">Computer Science Graduate</h3>;
   const four = (
     <>
       <p>
-      I’m a Master’s student in Computer Science with a passion for solving complex problems and creating impactful digital experiences. I enjoy bringing concepts to life with innovative technology.
+      Welcome to my portfolio! </p><p> I am a graduate student pursuing a Master’s in Computer Science at the University of Illinois Chicago.  I’m passionate about creating impactful software and exploring the intersection of technology and innovation. With experience in programming, web development, and data science, I enjoy solving complex problems and building applications that make a difference. 
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="/Niwant_Resume_FS.pdf"
+      href="/Siddhi_Dabholkar_Resume.pdf"
       target="_blank"
       rel="noreferrer">
       Resume

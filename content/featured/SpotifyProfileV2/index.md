@@ -1,16 +1,14 @@
 ---
 date: '3'
-title: 'Farmers Ecommerce Portal'
+title: 'Real Estate Price Prediction'
 cover: '../971.jpg'
-github: 'https://github.com/Niwant'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+github: 'https://github.com/SiddhiDabholkar10/Real-Estate-Price-Prediction.git'
+
 tech:
-  - React
-  - Express
-  - Stripe
-  - MongoDB
-  - Passport.js
-  - Image Recognition
+  - Python - Numpy, Pandas, Matplotlib, Seaborn, Scikit Learn
+  - Flask
+  - Machine Learning
 ---
 
-Built a responsive employee and meeting management system using the MERN stack, featuring full CRUD functionality, conflict notifications, and preferred time slot options for streamlined scheduling.
+Designed and implemented a machine learning model in Python to predict real estate prices with an accuracy of 84.77%, utilizing a diverse set of input features, including square footage, number of rooms, location, and other quantifiable attributes.
+Leveraged NumPy and Pandas for data preprocessing, performing tasks such as handling missing values, outlier detection, and feature scaling to ensure the dataset was clean, normalized, and suitable for model training. Constructed multiple regression models including Linear Regression, Support Vector Regression (SVR), and Random Forest Regressor to predict prices, with each model’s performance.

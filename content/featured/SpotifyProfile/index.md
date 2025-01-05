@@ -1,15 +1,18 @@
 ---
 date: '2'
-title: 'Spectre'
+title: 'InnSight'
 cover: '../971.jpg'
-github: 'https://github.com/Niwant/spectre'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/SiddhiDabholkar10'
 tech:
-  - Pytorch
-  - FLAME
-  - Gradio
-  - ROS System
-  - HuggingFace
+  - JavaScript
+  - React.js
+  - Node.js
+  - MongoDb
+  - Express
 ---
 
-Spectre is a video-to-3D mesh machine learning model integrated into an ROS system for generating real-time 3D meshes. We enhanced the package and deployed a Gradio interface to enable seamless interaction with the model.
+Developed a full-stack hotel booking application using the MERN stack, with a responsive React front-end featuring component-based architecture and client-side routing.
+Implemented JWT-based authentication for secure user login and access management.
+Built over 15 RESTful APIs in Node.js/Express to manage features like user login, hotel listings, and bookings.
+Integrated MongoDB for efficient data management, ensuring optimal performance and scalability of the application.
+

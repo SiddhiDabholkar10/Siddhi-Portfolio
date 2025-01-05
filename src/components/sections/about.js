@@ -81,8 +81,7 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      
       transition: var(--transition);
     }
 
@@ -125,7 +124,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Python','Go', 'Node.js', 'CI/CD' , 'Machine Learning'];
+  const skills = ['Python','JavaScript','Node.js', 'React','MongoDB','MySQL', 'Java','Data Science', 'Machine Learning','Automation Anywhere','WalkMe Digital Adoption Platform','Restful API'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,8 +133,8 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-            Hello! My name is Niwant, and I’m passionate about building impactful digital solutions. My journey in software development began during my undergraduate studies, and since then, I’ve worked as a Software Engineer at Software AG, optimizing CI/CD pipelines and enhancing system security. Currently, as a Master’s student in Computer Science, I’m focused on creating scalable, accessible, and user-centric products while advancing my skills in data science and full-stack development.
+            <p style={{justifyContent:'center'}}>
+            Hello! My name is Siddhi, a  curious and creative mind currently exploring the limitless possibilities of Computer Science. I thrive on creating solutions that are as elegant as they are impactful—whether it’s designing user-friendly applications, developing automation workflows, or building models that learn from data.</p><p  style={{justifyContent:'center'}}>When I’m not coding or experimenting with new technologies, you’ll likely find me immersed in a book, diving into stories that spark imagination and provide fresh perspectives. I believe every story, whether in code or on paper, has the power to inspire change and ignite new ideas.
             </p>
 
             {/* <p>
@@ -158,7 +157,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/SiddhiPhoto.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
