@@ -2,11 +2,13 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
+import IconLinkedin from '@components/icons/linkedin';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledContactSection = styled.section`
-  max-width: 400px;
-  margin: 0 auto 50px;
+  max-width: 500px;
+  margin: 0 auto;
+  
   text-align: center;
 
   @media (max-width: 768px) {
@@ -40,6 +42,38 @@ const StyledContactSection = styled.section`
     margin-top: 50px;
     width: 150px;
   }
+ 
+  .connect-link {
+  display: flex;
+  align-items: center; /* Aligns all items in the center vertically */
+  justify-content: center;
+  margin-top: 30px;
+  font-size: var(--fz-lg);
+  line-height: var(--fz-lg);
+
+  a {
+    display: flex;
+    align-items: center; /* Ensures the icon aligns with the text */
+    color: var(--green);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: -10px;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-left: 2px;
+      vertical-align: text-top; /* Ensures proper vertical alignment */
+    }
+  }
+}
+
+
 `;
 
 const Contact = () => {
@@ -67,7 +101,13 @@ const Contact = () => {
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello
       </a>
-    </StyledContactSection>
+      <div className="connect-link">
+        Or connect with me at
+        <a href="https://www.linkedin.com/in/siddhi-dabholkar10/" target="_blank" rel="noopener noreferrer">
+          <IconLinkedin />
+        </a>
+      </div>
+      </StyledContactSection>
   );
 };
 

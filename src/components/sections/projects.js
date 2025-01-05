@@ -115,7 +115,7 @@ const StyledProject = styled.li`
   }
 
   .project-title {
-  text-align: justify;
+  text-align: center;
     margin: 0 0 10px;
     
     color: var(--lightest-slate);

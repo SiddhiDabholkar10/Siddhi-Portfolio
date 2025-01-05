@@ -2,7 +2,7 @@
 date: '2'
 title: 'InnSight'
 cover: '../971.jpg'
-github: 'https://github.com/SiddhiDabholkar10'
+github: 'https://github.com/SiddhiDabholkar10/InnSight.git'
 tech:
   - JavaScript
   - React.js

@@ -11,6 +11,28 @@ import { IconLogo, IconHex } from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
+  position: fixed; /* Keeps the navbar fixed */
+  top: 0;
+  z-index: 11;
+  padding: 0px 50px;
+  width: 100%;
+  height: var(--nav-height);
+  background-color: rgba(10, 25, 47, 0.85); /* Add a background for better visibility */
+  box-shadow: 0 10px 30px -10px var(--navy-shadow); /* Optional: shadow for separation */
+  backdrop-filter: blur(10px); /* Optional: adds blur for a frosted-glass effect */
+  transition: var(--transition);
+
+  @media (max-width: 1080px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 25px;
+  }
+`;
+
+
+const StyledHeade = styled.header`
+  ${({ theme }) => theme.mixins.flexBetween};
   position: fixed;
   top: 0;
   z-index: 11;

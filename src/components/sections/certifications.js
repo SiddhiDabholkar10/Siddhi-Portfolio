@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledCertificationsSection = styled.section`
-  max-width: 700px;
+  
   margin: 0 auto;
-  padding: 100px 0;
+  
+  padding-top: 150px;
 
   h2 {
     font-size: var(--fz-heading);
@@ -86,7 +87,10 @@ const certifications = [
 
 const Certifications = () => (
   <StyledCertificationsSection id="certifications">
-    <h2>Certifications</h2>
+     <h2 className="numbered-heading" >
+        Certifications
+      </h2>
+
     <ul>
       {certifications.map((cert, i) => (
         <li key={i}>
