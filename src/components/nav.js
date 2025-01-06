@@ -9,7 +9,7 @@ import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo, IconHex } from '@components/icons';
 
-const StyledHeader = styled.header`
+const StyledHeade = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
   position: fixed; /* Keeps the navbar fixed */
   top: 0;
@@ -31,7 +31,7 @@ const StyledHeader = styled.header`
 `;
 
 
-const StyledHeade = styled.header`
+const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
   position: fixed;
   top: 0;
