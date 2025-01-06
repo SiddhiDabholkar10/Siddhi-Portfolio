@@ -26,7 +26,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/SiddhiLogo.png',
+        icon: 'src/images/siddhilogo.png',
       },
     },
     `gatsby-plugin-offline`,
