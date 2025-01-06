@@ -105,10 +105,10 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          {/*<div>Designed by Brittany Chiang</div>*/}
+        {/*<a href="https://github.com/bchiang7/v4">
+          <div>Designed by Brittany Chiang</div>*/}
 
-          {githubInfo.stars && githubInfo.forks && (
+          {/* {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
@@ -120,7 +120,7 @@ const Footer = () => {
               </span>
             </div>
           )}
-        </a>
+        </a>*/}
       </StyledCredit>
     </StyledFooter>
   );
