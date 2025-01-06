@@ -11,6 +11,10 @@ module.exports = {
       url: 'https://github.com/SiddhiDabholkar10',
     },
     {
+      name :'GeeksForGeeks',
+      url:'https://www.geeksforgeeks.org/user/siddhidabholkar17/'
+    },
+    {
       name: 'Twitter',
       url: 'https://leetcode.com/u/Siddhi_D_10/',
     },
