@@ -6,7 +6,7 @@ github: 'https://github.com/SiddhiDabholkar10/caseQuery.git'
 
 tech:
   - Python 
-  - FAISS (faiss-cpu)
+  - FAISS
   - Sentence-Transformers
   - BM25
   - OpenRouter API (Meta-Llama)

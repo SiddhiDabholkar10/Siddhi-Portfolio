@@ -7,7 +7,7 @@ external: 'https://siddhidabholkar10.github.io/Build-NYC-Analytics-Dashboard/'
 
 tech:
   - Altair
-  -  Vegalite 
+  - Vegalite 
   - Scikit Learn
   -  Github Pages
 
