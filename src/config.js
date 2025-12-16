@@ -19,10 +19,7 @@ module.exports = {
       url: 'https://leetcode.com/u/Siddhi_D_10/',
     },
     
-    // {
-    //   name: 'Codepen',
-    //   url: 'https://codepen.io/bchiang7',
-    // },
+
   ],
 
   navLinks: [
@@ -33,6 +30,10 @@ module.exports = {
     {
       name: 'Work Experience',
       url: '/#jobs',
+    },
+    {
+      name: 'Education',
+      url: '/#education',
     },
     {
       name: 'Technical Projects',
