@@ -3,7 +3,7 @@ date: '3'
 title: 'Build NYC Analytics'
 cover: '../Picture2.jpg'
 github: 'https://github.com/SiddhiDabholkar10/Build-NYC-Analytics.git'
-external: 'https://dhru205.github.io/NYC_Build_Analytics/'
+external: 'https://siddhidabholkar10.github.io/Build-NYC-Analytics-Dashboard/'
 
 tech:
   - Altair
