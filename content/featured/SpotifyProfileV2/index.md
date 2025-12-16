@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Build NYC Analytics'
-cover: '../971.jpg'
+cover: '../Picture2.jpg'
 github: 'https://github.com/SiddhiDabholkar10/Build-NYC-Analytics.git'
 external: 'https://dhru205.github.io/NYC_Build_Analytics/'
 
