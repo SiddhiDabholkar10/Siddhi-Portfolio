@@ -354,7 +354,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover} = frontmatter;
+            const { external, title, tech, github, cover } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -368,7 +368,8 @@ const Featured = () => {
                     </h3>
 
                     <div
-                      className="project-description" style={{
+                      className="project-description"
+                      style={{
                         alignItems: 'center', // Optional: Centers the items
                         textAlign: 'center', // Optional: Aligns the items to the left
                         justifyContent: 'center', // Optional: Centers the items
@@ -396,7 +397,11 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
-                    
+                      {external && (
+                        <a href={external} aria-label="External Link">
+                          <Icon name="External" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

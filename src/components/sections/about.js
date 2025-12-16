@@ -134,7 +134,7 @@ const About = () => {
         <StyledText>
           <div>
             <p style={{justifyContent:'center'}}>
-            Hello! My name is Siddhi, a  curious and creative mind currently exploring the limitless possibilities of Computer Science. I thrive on creating solutions that are as elegant as they are impactful—whether it’s designing user-friendly applications, developing automation workflows, or building models that learn from data.</p><p  style={{justifyContent:'center'}}>When I’m not coding or experimenting with new technologies, you’ll likely find me immersed in a book, diving into stories that spark imagination and provide fresh perspectives. I believe every story, whether in code or on paper, has the power to inspire change and ignite new ideas.
+            Hello! My name is Siddhi, a  curious and creative mind currently exploring the limitless possibilities of Computer Science. I thrive on creating solutions that are as elegant as they are impactful - whether it’s designing user-friendly applications, developing automation workflows, or building models that learn from data.</p><p  style={{justifyContent:'center'}}>When I’m not coding or experimenting with new technologies, you’ll likely find me immersed in a book, diving into stories that spark imagination and provide fresh perspectives. I believe every story, whether in code or on paper, has the power to inspire change and ignite new ideas.
             </p>
 
             {/* <p>

@@ -1,14 +1,22 @@
 ---
 date: '3'
-title: 'Real Estate Price Prediction'
+title: 'Build NYC Analytics'
 cover: '../971.jpg'
-github: 'https://github.com/SiddhiDabholkar10/Real-Estate-Price-Prediction.git'
+github: 'https://github.com/SiddhiDabholkar10/Build-NYC-Analytics.git'
+external: 'https://dhru205.github.io/NYC_Build_Analytics/'
 
 tech:
-  - Python - Numpy, Pandas, Matplotlib, Seaborn, Scikit Learn
-  - Flask
-  - Machine Learning
+  - Altair
+  -  Vegalite 
+  - Scikit Learn
+  -  Github Pages
+
 ---
 
-Designed and implemented a machine learning model in Python to predict real estate prices with an accuracy of 84.77%, utilizing a diverse set of input features, including square footage, number of rooms, location, and other quantifiable attributes.
-Leveraged NumPy and Pandas for data preprocessing, performing tasks such as handling missing values, outlier detection, and feature scaling to ensure the dataset was clean, normalized, and suitable for model training. Constructed multiple regression models including Linear Regression, Support Vector Regression (SVR), and Random Forest Regressor to predict prices, with each model’s performance.
+Built an interactive analytics website to explore NYC Department of Buildings filings at scale, turning raw permit data into an explorable, user-friendly dashboard.
+Generated and visualized text embeddings for filing/work descriptions to surface thematic clusters and similarity patterns, comparing dimensionality-reduction choices (e.g., PCA vs UMAP) for clarity and interpretability.
+Implemented coordinated, linked visualizations (scatter + filters/brush selections + detail views) so users can drill from citywide trends down to specific subsets quickly.
+Designed a clean data pipeline to preprocess, sample, and export embedding + metadata tables optimized for fast client-side rendering and smooth interactions.
+
+
+
