@@ -13,4 +13,4 @@ range: 'August 2018 - May 2022'
 
 - Developed solid software engineering habits through team-based coursework - requirements understanding, debugging, documentation, and delivering working demos under deadlines.
 
-- *** CGPA : 8.88  ***
+- __CGPA: 8.88__

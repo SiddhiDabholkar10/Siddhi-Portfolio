@@ -13,4 +13,4 @@ range: 'August 2024 - May 2026'
 
 - Alongside the program, working as a Graduate Assistant at UIC Learning Technology Solutions (LTS), supporting campus learning platforms and collaborating with faculty to troubleshoot and streamline academic technology workflows.
 
-- - *** CGPA : 3.6  ***
+- __CGPA: 3.63__.
