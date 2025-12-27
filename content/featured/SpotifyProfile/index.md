@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'InnSight'
-cover: '../971.jpg'
+cover: '../Picture3.png'
 github: 'https://github.com/SiddhiDabholkar10/InnSight.git'
 tech:
   - JavaScript
