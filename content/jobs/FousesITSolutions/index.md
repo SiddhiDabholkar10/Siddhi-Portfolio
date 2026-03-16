@@ -1,6 +1,6 @@
 ---
 date: '2018-05-14'
-title: 'Web Developer Intern'
+title: 'Software Developer Intern'
 company: 'Fouses IT Solutions'
 location: 'Mumbai, IN'
 range: 'June 2021 - August 2021'

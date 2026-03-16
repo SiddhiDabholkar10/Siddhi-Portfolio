@@ -66,11 +66,11 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Siddhi Dabholkar</h2>;
-  const three = <h3 className="big-heading">Computer Science Graduate</h3>;
+  const three = <h3 className="medium2-heading">Software Engineer | Computer Science Graduate</h3>;
   const four = (
     <>
       <p>
-      Welcome to my portfolio! </p><p> I am a graduate student pursuing a Master’s in Computer Science at the University of Illinois Chicago.  I’m passionate about creating impactful software and exploring the intersection of technology and innovation. With experience in programming, web development, and data science, I enjoy solving complex problems and building applications that make a difference. 
+      <strong>Welcome to my portfolio! </strong></p><p> I’m a Software Engineer and Master’s student in Computer Science at the University of Illinois Chicago, with over 3 years of experience building scalable web applications, backend systems, and intelligent software solutions along with technical support. I’m graduating in May 2026 and am particularly strong in Java, Python, JavaScript, backend development, cloud-based applications, and applied AI. I enjoy solving complex problems and building software that is reliable, efficient, and user-focused.
       </p>
     </>
   );
