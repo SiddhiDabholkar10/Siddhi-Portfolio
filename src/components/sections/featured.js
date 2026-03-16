@@ -160,6 +160,8 @@ const StyledProject = styled.li`
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
+    
+    
 
     @media (max-width: 768px) {
       padding: 20px 0;
@@ -179,6 +181,10 @@ const StyledProject = styled.li`
       color: var(--white);
       font-weight: normal;
     }
+
+    ul li {
+    margin-bottom: 8px;  
+  }
   }
 
   .project-tech-list {
@@ -371,9 +377,10 @@ const Featured = () => {
                       className="project-description"
                       style={{
                         alignItems: 'center', // Optional: Centers the items
-                        textAlign: 'center', // Optional: Aligns the items to the left
+                        textAlign: 'justify', // Optional: Aligns the items to the left
                         justifyContent: 'center', // Optional: Centers the items
                         alignContent: 'center', // Optional: Centers the items
+                        // Optional: Adds padding around the content
                       }}
                       dangerouslySetInnerHTML={{ __html: html }}
                     />

@@ -10,6 +10,4 @@ tech:
 showInProjects: true
 ---
 
-Developed a Convolutional Neural Network (CNN) to classify a dataset of 500+ breast tissue biopsy images as benign or malignant, achieving 88.54% accuracy. 
-Utilized data preprocessing techniques such as resizing, normalization, and augmentation with NumPy and Pillow to enhance model performance. Built a web application using React.js and FastAPI for real-time visualization of predictions. 
-Integrated TensorFlow for efficient model inference, allowing users to upload images and receive instant results. Assessed model performance using metrics like precision, recall, and F1-score.
+Built a CNN to classify 500+ breast tissue biopsy images as benign or malignant, achieving 88.54% accuracy. Applied preprocessing and augmentation via NumPy and Pillow, and deployed a React.js + FastAPI web app with TensorFlow inference for real-time predictions - evaluated using precision, recall, and F1-score.

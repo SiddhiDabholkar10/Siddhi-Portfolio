@@ -11,5 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Designed and implemented a machine learning model in Python to predict real estate prices with an accuracy of 84.77%, utilizing a diverse set of input features, including square footage, number of rooms, location, and other quantifiable attributes.
-Leveraged NumPy and Pandas for data preprocessing, performing tasks such as handling missing values, outlier detection, and feature scaling to ensure the dataset was clean, normalized, and suitable for model training. Constructed multiple regression models including Linear Regression, Support Vector Regression (SVR), and Random Forest Regressor to predict prices, with each model’s performance.
+Built a real estate price prediction model in Python (84.77% accuracy) using features like square footage, rooms, and location. Preprocessed data with NumPy and Pandas - handling missing values, outliers, and feature scaling, and compared Linear Regression, SVR, and Random Forest Regressor for performance evaluation.

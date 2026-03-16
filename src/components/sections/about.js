@@ -134,8 +134,9 @@ const About = () => {
         <StyledText>
           <div>
             <p style={{justifyContent:'center'}}>
-            Hello! My name is Siddhi, a  curious and creative mind currently exploring the limitless possibilities of Computer Science. I thrive on creating solutions that are as elegant as they are impactful - whether it’s designing user-friendly applications, developing automation workflows, or building models that learn from data.</p><p  style={{justifyContent:'center'}}>When I’m not coding or experimenting with new technologies, you’ll likely find me immersed in a book, diving into stories that spark imagination and provide fresh perspectives. I believe every story, whether in code or on paper, has the power to inspire change and ignite new ideas.
-            </p>
+            Hello! My name is Siddhi, a  curious and creative mind currently exploring the limitless possibilities of Computer Science. 
+            I enjoy working across the stack but gravitate toward backend systems and AI-enabled applications, especially ones that do something meaningfully smart. Currently I'm working on ReasonHop,
+             teaching models to chain evidence across documents, and MadMath, a multi-agent math tutor where agents debate their way to the right answer.</p>
 
             {/* <p>
             Fast-forward to today, I’ve had the privilege of working as a Software Engineer at Software AG, tackling challenges like optimizing CI/CD pipelines, enhancing system security, and mentoring developers. Currently, as a Master’s student in Computer Science, I’m focused on building scalable, accessible, and user-centric products while advancing my skills in data science and full-stack development.

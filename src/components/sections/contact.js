@@ -4,6 +4,7 @@ import { srConfig, email } from '@config';
 import sr from '@utils/sr';
 import IconLinkedin from '@components/icons/linkedin';
 import { usePrefersReducedMotion } from '@hooks';
+import IconGitHub from '@components/icons/github';
 
 const StyledContactSection = styled.section`
   max-width: 500px;
@@ -106,6 +107,11 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/siddhi-dabholkar10/" target="_blank" rel="noopener noreferrer">
           <IconLinkedin />
         </a>
+           &nbsp; Take a look at my GitHub profile 
+        <a href="https://www.github.com/siddhi-dabholkar10" target="_blank" rel="noopener noreferrer">
+          <IconGitHub/>
+        </a>
+       
       </div>
       </StyledContactSection>
   );

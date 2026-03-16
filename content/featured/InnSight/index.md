@@ -11,8 +11,7 @@ tech:
   - Express
 ---
 
-Developed a full-stack hotel booking application using the MERN stack, with a responsive React front-end featuring component-based architecture and client-side routing.
-Implemented JWT-based authentication for secure user login and access management.
-Built over 15 RESTful APIs in Node.js/Express to manage features like user login, hotel listings, and bookings.
-Integrated MongoDB for efficient data management, ensuring optimal performance and scalability of the application.
+
+- Built a full-stack accommodation booking platform (MERN) with a responsive React 18 UI, component-based architecture, and React Router navigation, implementing JWT authentication and protected user flows for browsing listings/ managing bookings.
+- Designed and implemented 15+ RESTful APIs in Node.js/Express for users, places, and bookings; modeled and validated data with Mongoose, integrated Axios-based client–server data flow, and supported scalable image handling via Multer + AWS S3.
 
