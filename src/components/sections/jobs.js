@@ -130,10 +130,13 @@ const StyledTabPanels = styled.div`
   position: relative;
   width: 100%;
   margin-left: 20px;
+  
+  text-align: justify;
 
   @media (max-width: 600px) {
     margin-left: 0;
   }
+    
 `;
 
 const StyledTabPanel = styled.div`

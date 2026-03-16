@@ -31,6 +31,7 @@ const StyledTabList = styled.div`
   padding: 0;
   margin: 0;
   list-style: none;
+   
 
   @media (max-width: 600px) {
     display: flex;
@@ -130,6 +131,7 @@ const StyledTabPanels = styled.div`
   position: relative;
   width: 100%;
   margin-left: 20px;
+  text-align: justify;
 
   @media (max-width: 600px) {
     margin-left: 0;

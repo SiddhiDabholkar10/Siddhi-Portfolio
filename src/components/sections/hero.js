@@ -70,7 +70,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      <strong>Welcome to my portfolio! </strong></p><p> I’m a Software Engineer and Master’s student in Computer Science at the University of Illinois Chicago, with over 3 years of experience building scalable web applications, backend systems, and intelligent software solutions along with technical support. I’m graduating in May 2026 and am particularly strong in Java, Python, JavaScript, backend development, cloud-based applications, and applied AI. I enjoy solving complex problems and building software that is reliable, efficient, and user-focused.
+      <strong>Welcome to my portfolio! </strong></p><p style={{textAlign:'center'}}> I’m a Software Engineer and Master’s student in Computer Science at the University of Illinois Chicago, with over 3 years of experience building scalable web applications, backend systems, and intelligent software solutions along with technical support. I’m graduating in May 2026 and am particularly strong in Java, Python, JavaScript, backend development, cloud-based applications, and applied AI. I enjoy solving complex problems and building software that is reliable, efficient, and user-focused.
       </p>
     </>
   );

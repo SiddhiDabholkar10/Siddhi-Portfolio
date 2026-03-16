@@ -133,7 +133,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p style={{justifyContent:'center'}}>
+            <p style={{justifyContent:'center', textAlign:'justify'}}>
             Hello! My name is Siddhi, a  curious and creative mind currently exploring the limitless possibilities of Computer Science. 
             I enjoy working across the stack but gravitate toward backend systems and AI-enabled applications, especially ones that do something meaningfully smart. Currently I'm working on ReasonHop,
              teaching models to chain evidence across documents, and MadMath, a multi-agent math tutor where agents debate their way to the right answer.</p>

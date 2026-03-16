@@ -47,6 +47,7 @@ const StyledProject = styled.li`
   position: relative;
   cursor: default;
   transition: var(--transition);
+  
 
   @media (prefers-reduced-motion: no-preference) {
     &:hover,
@@ -140,7 +141,8 @@ const StyledProject = styled.li`
   .project-description {
     color: var(--light-slate);
     font-size: 17px;
-    text-align: center;
+    margin-top: 20px;
+    text-align: justify;
 
     a {
       ${({ theme }) => theme.mixins.inlineLink};
