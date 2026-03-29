@@ -35,10 +35,12 @@ const StyledTabList = styled.div`
   @media (max-width: 600px) {
     display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
     width: calc(100% + 100px);
     padding-left: 50px;
     margin-left: -50px;
     margin-bottom: 30px;
+    scrollbar-width: thin;
   }
   @media (max-width: 480px) {
     width: calc(100% + 50px);
@@ -86,11 +88,18 @@ const StyledTabButton = styled.button`
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
-    padding: 0 15px;
+    flex: 0 0 160px; 
+    width: 160px; 
+    min-width: 160px; 
+    height: auto; 
+    min-height: 60px; 
+    padding: 10px 12px; 
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
+    white-space: normal; 
+    line-height: 1.4; 
+    font-size: 11px; 
   }
 
   &:hover,
@@ -155,6 +164,8 @@ const StyledTabPanel = styled.div`
     line-height: 1.3;
     text-align: left;
 
+    
+
     .company {
       color: var(--green);
     }
@@ -165,6 +176,20 @@ const StyledTabPanel = styled.div`
     color: var(--light-slate);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
+  }
+
+  @media (max-width: 600px) {
+    .title {
+
+      display: block; 
+    }
+
+    .company {
+      display: block;
+
+      color: var(--green);
+    }
+  
   }
 `;
 
