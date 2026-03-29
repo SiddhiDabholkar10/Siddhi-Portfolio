@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Built a compiler for the Bluejay language in C — covering lexical analysis (Flex), parsing (Yacc), semantic analysis, AST construction, and MIPS code generation.
+Built a compiler for the Bluejay language in C: covering lexical analysis (Flex), parsing (Yacc), semantic analysis, AST construction, and MIPS code generation.

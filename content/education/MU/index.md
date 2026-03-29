@@ -11,6 +11,5 @@ range: 'August 2018 - May 2022'
 
 - Built multiple academic projects that strengthened end-to-end development skills, including backend logic, database design, and deploying applications in cloud environments.
 
-- Developed solid software engineering habits through team-based coursework - requirements understanding, debugging, documentation, and delivering working demos under deadlines.
 
-- __CGPA: 8.88__
+- __CGPA: 8.88/10__

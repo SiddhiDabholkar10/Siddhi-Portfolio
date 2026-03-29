@@ -153,6 +153,7 @@ const StyledTabPanel = styled.div`
     font-size: var(--fz-xxl);
     font-weight: 500;
     line-height: 1.3;
+    text-align: left;
 
     .company {
       color: var(--green);
