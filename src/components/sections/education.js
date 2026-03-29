@@ -36,10 +36,12 @@ const StyledTabList = styled.div`
   @media (max-width: 600px) {
     display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
     width: calc(100% + 100px);
     padding-left: 50px;
     margin-left: -50px;
     margin-bottom: 30px;
+    scrollbar-width: thin;
   }
   @media (max-width: 480px) {
     width: calc(100% + 50px);
@@ -87,11 +89,18 @@ const StyledTabButton = styled.button`
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
-    padding: 0 15px;
+     flex: 0 0 160px; // CHANGED: fixed width per tab on mobile
+    width: 160px; // CHANGED: fixed width prevents overlap
+    min-width: 160px; // CHANGED: keeps each tab same size
+    height: auto; // CHANGED: allow tab height to grow
+    min-height: 60px; // CHANGED: better mobile touch target
+    padding: 10px 12px; // CHANGED: mobile-friendly spacing
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
+    white-space: normal; // CHANGED: allow text wrapping on mobile
+    line-height: 1.4; // CHANGED: improves wrapped text readability
+    font-size: 11px; // CHANGED: slightly smaller text for small screens
   }
 
   &:hover,

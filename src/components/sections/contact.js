@@ -103,7 +103,7 @@ const Contact = () => {
         Say Hello
       </a>
       <div className="connect-link">
-        Or connect with me at
+        Connect with me at
         <a href="https://www.linkedin.com/in/siddhi-dabholkar10/" target="_blank" rel="noopener noreferrer">
           <IconLinkedin />
         </a>
