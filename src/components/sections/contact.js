@@ -96,7 +96,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-      I’m actively seeking full-stack and AI internship opportunities! My inbox is always open, so if you have an opportunity or just want to connect, feel free to reach out!
+      I'm actively seeking full-time Software Engineer opportunities! My inbox is always open, so if you have an opportunity or just want to connect, feel free to reach out!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
