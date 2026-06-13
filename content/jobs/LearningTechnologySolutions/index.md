@@ -3,7 +3,7 @@ date: '2025-08-14'
 title: 'Technical Support Graduate Assistant'
 company: 'Technology Solutions - UIC'
 location: 'Chicago, IL'
-range: 'June 2025 - Present'
+range: 'June 2025 - May 2026'
 url: 'https://learning.uic.edu/profiles/dabholkar-siddhi/'
 ---
 

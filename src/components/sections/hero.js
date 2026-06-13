@@ -11,7 +11,7 @@ const StyledHeroSection = styled.section`
   min-height: 100vh;
   height: 100vh;
   padding: 0;
- 
+
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
     height: auto;
     padding-top: var(--nav-height);
@@ -37,8 +37,8 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-     max-width: 100%;
-     text-align: center;
+    max-width: 100%;
+    text-align: center;
   }
 
   .email-link {
@@ -70,16 +70,20 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      <strong>Welcome to my portfolio! </strong></p><p style={{textAlign:'center'}}> I’m a Software Engineer and Master’s student in Computer Science at the University of Illinois Chicago, with over 3 years of experience building scalable web applications, backend systems, and intelligent software solutions along with technical support. I’m graduating in May 2026 and am particularly strong in Java, Python, JavaScript, backend development, cloud-based applications, and applied AI. I enjoy solving complex problems and building software that is reliable, efficient, and user-focused.
+        <strong>Welcome to my portfolio! </strong>
+      </p>
+      <p style={{ textAlign: 'center' }}>
+        {' '}
+        I'm a Software Engineer with over 3 years of experience building scalable web applications,
+        backend systems, and intelligent software solutions. I'm particularly strong in Java,
+        Python, JavaScript, backend development, cloud-based applications, and applied AI. I enjoy
+        solving complex problems and building software that is reliable, efficient, and
+        user-focused.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="/Siddhi_Dabholkar_Resume.pdf"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href="/Siddhi_Dabholkar_Resume.pdf" target="_blank" rel="noreferrer">
       Resume
     </a>
   );

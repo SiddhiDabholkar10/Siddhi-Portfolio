@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'caseQuery - Legal RAG Assistant'
 cover: '../Picture1.jpeg'
 github: 'https://github.com/SiddhiDabholkar10/caseQuery.git'
