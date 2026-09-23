@@ -7,7 +7,8 @@ range: 'May 2025 - August 2025'
 url: 'https://bectran.com/'
 ---
 
-- Resolved recurring issues in automated document generation, improving accuracy for 1,000+ monthly client reports and reducing manual corrections by 30%.  
-- Assisted in migrating enterprise applications to JDK 17 and Tomcat 10, refactoring 200+ files to enhance performance (~25%) and security compliance.  
-- Standardized system data exports by converting legacy Excel outputs to CSV, reducing compatibility issues by 90% and cutting processing time by 40%.  
+
+- Migrated legacy enterprise application to JDK 17/Tomcat 10, using Amazon Q to analyze source files, upgrade Maven dependencies, and refactor the codebase, resolving integration issues and improving application maintainability.  
+- Standardized SFTP-transmitted report formats by implementing controller logic to convert Sales Order and Account Credit exports to CSV, reducing downstream compatibility issues by 30%. 
+- Resolved invoice-generation and dynamic email-template defects across microservices using ActiveMQ-based asynchronous reporting workflows, improving the accuracy of customer documents delivered through scheduled cron jobs.
 - Optimized backend database queries with Hibernate, improving data retrieval speed by 20% and strengthening reliability in financial workflows.  

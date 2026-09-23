@@ -108,7 +108,7 @@ const Contact = () => {
           <IconLinkedin />
         </a>
            &nbsp; Take a look at my GitHub profile 
-        <a href="https://www.github.com/siddhi-dabholkar10" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/SiddhiDabholkar10" target="_blank" rel="noopener noreferrer">
           <IconGitHub/>
         </a>
        

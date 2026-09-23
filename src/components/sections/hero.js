@@ -41,14 +41,6 @@ const StyledHeroSection = styled.section`
     text-align: center;
   }
 
-  .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
 `;
 
 const Hero = () => {
@@ -82,13 +74,7 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
-    <a className="email-link" href="/Siddhi_Dabholkar_Resume.pdf" target="_blank" rel="noreferrer">
-      Resume
-    </a>
-  );
-
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

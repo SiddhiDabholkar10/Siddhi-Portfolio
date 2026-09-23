@@ -13,7 +13,7 @@ const IconEmail = () => (
     strokeLinecap="round"
     strokeLinejoin="round"
     className="feather feather-mail">
-      <a href="mailto:sdabh@uic.edu">
+      <a href="mailto:dabholkarsiddhi105@gmail.com">
     <title>Email</title>
     <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
     <polyline points="4 6 12 13 20 6"></polyline></a>
